@@ -212,7 +212,7 @@ function getOffset(elem) {
 
 function each(elem, fn) {
 	if(!elem) return;
-	var a = elem.length ? elem : [elem];
+	var a = isNaN(elem.length) ? [elem] : elem;
 	for(var i = 0, length = a.length; i < length; i++) {
 		var ret = fn.call(a[i], a[i], i, a);
 		if(false === ret) break;
