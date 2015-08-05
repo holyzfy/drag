@@ -230,7 +230,7 @@ this.Drag = Drag;
  * @property {cb} dragend - mouseup事件触发时被执行，依次在每个拖拽元素上执行该方法
  * @property {HTMLElement[]} dropTarget - 要drop的DOM元素
  * @property {cb} dropstart - drag元素进入drop元素时被执行，如果返回false则取消drop操作，依次在每个满足条件的drop元素上执行该方法
- * @prpperty {cb} drop - 在drop元素上释放drag元素时被执行，如果返回false则取消drop操作，依次在每个满足条件的drop元素上执行该方法
+ * @property {cb} drop - 在drop元素上释放drag元素时被执行，如果返回false则取消drop操作，依次在每个满足条件的drop元素上执行该方法
  * @property {cb} dropend - drag元素离开drop元素时被执行，依次在每个满足条件的drop元素上执行该方法
  */
 
